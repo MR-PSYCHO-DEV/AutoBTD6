@@ -3,6 +3,7 @@ Scripts
 Lib
 Include
 pyvenv.cfg
+.venv
 
 own_playthroughs
 screenshots

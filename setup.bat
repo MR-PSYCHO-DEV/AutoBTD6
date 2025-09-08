@@ -28,7 +28,7 @@ if exist ".venv" (
     echo Found ".venv"  folder here. dont need to make one.
 ) else (
     echo Not found ".venv" folder here. dont need to make one.
-
+    python -m venv .venv
 )
 call .venv\Scripts\activate.bat
 
@@ -45,5 +45,4 @@ pause
 
 pip Install -r requirements.txt
 echo Install done :0
-
 pause
