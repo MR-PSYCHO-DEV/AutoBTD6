@@ -4,6 +4,7 @@ Lib
 Include
 pyvenv.cfg
 .venv
+*.h5
 
 own_playthroughs
 screenshots
